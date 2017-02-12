@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
         station = Tins::Dot11::address_type{ argv[3] };
     }
     else {
-        std::cerr << "usage: send_deauth <interce name> <ap mac> [<station mac>]" << std::endl;
+        std::cerr << "usage: send_deauth <interface name> <ap mac> [<station mac>]" << std::endl;
         return 1;
     }
     
