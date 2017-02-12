@@ -19,6 +19,7 @@ int main(int argc, char *argv[]) {
     }
     else {
         std::cerr << "usage: send_deauth <interface name> <ap mac> [<station mac>]" << std::endl;
+        std::cerr << "example: send_deauth wlan0 12:34:56:78:9A:BC" << std::endl;
         return 1;
     }
     
